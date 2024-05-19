@@ -115,7 +115,7 @@
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>fastjson</artifactId>
-                <version>1.2.33</version>
+                <version>1.2.83_noneautotype</version>
             </dependency>
             <dependency>
                 <groupId>com.taobao.text</groupId>
@@ -235,7 +235,7 @@
                         <format>html</format>
                         <format>xml</format>
                     </formats>
-                    <check />
+                    <check/>
                 </configuration>
             </plugin>
         </plugins>
