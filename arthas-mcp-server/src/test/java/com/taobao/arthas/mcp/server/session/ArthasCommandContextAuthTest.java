@@ -66,7 +66,7 @@ class ArthasCommandContextAuthTest {
         }
 
         @Override
-        public Map<String, Object> createSession() {
+        public Map<String, Object> createSession(boolean quiet) {
             Map<String, Object> result = new HashMap<String, Object>();
             result.put("sessionId", "created-session");
             result.put("consumerId", "created-consumer");
